@@ -9,6 +9,7 @@ from PT import *
 
 class ECG_GUI():
     def __init__(self,Fs,win_len,serialReader,panTompkins):
+        #Zajebi
         #IAO
         self.fig, (self.ax1,self.ax2) = plt.subplots(2,1)
         self.fig_lines1={
